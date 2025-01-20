@@ -1,0 +1,20 @@
+create database chatboat;
+use chaidtboat;
+
+Create TABLE chatbot_responses(
+    id INT AUTO_INCREMENT Primary Key,
+    question VARCHAR(255) NOT NULL,
+    response VARCHAR(255) NOT NULL
+);
+
+INSERT INTO chatbot_responses( question, response) 
+VALUES
+ ('hello', 'Hi there! How can I help you?'),
+    ('how are you', 'I am a chatbot, always ready to assist you!'),
+    ('bye', 'Goodbye! Have a great day!');
+    
+select * from chatbot_responses;
+insert into chatbot_responses (question,response)
+values
+("hi" "Hi there! How Can i assist you")
+
